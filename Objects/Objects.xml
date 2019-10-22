@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<object>
+
+        <automation>
+
+                <signIn>//a[@class='login']</signIn>
+                <authenticate>//h1[@class='page-heading']</authenticate>
+                <Date>'//option[@value=%s]'  %date1</Date>
+
+
+        </automation>
+
+
+</object>
